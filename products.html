@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<title>Welcome | Rajlaxmi Steel Trader's Pvt. Ltd.</title>
+</head>
+
+<body class="about-bod capt">
+  <div class="modal fade" id="mymodal">
+    <div class="formodal-cont modal-content">
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+      <div class="row">
+        <div class="enquiry-intros col-sm-12 ">
+          <b>We would be delighted to receive any queries, suggestions, or feedback from you.</b> Simply fill in this
+          form below and our representative will contact you at the earliest:
+        </div>
+      </div>
+      <div class="topbore"></div>
+      <div id="enquiry-form">
+        <form method="POST" action="http://localhost:3000/submit-form" id="gform">
+          <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="form-group col-sm-5">
+              <label for="fname">First Name</label>
+              <input type="text" class="form-control" id="fname" name="first_name" required pattern="^[a-zA-Z][a-z]+$" title="Please enter a name.">
+            </div>
+            <div class="form-group col-sm-5">
+              <label for="lname">Last Name</label>
+              <input type="text" class="form-control" id="lname" name="last_name" required pattern="^[a-zA-Z][a-z]+$" title="Please enter a name.">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="form-group col-sm-5">
+              <label for="email">Email</label>
+              <input type="email" id="email" class="form-control" name="email" required>
+              <small class="form-text text-muted">Please enter the email address we should use to contact you.</small>
+            </div>
+            <div class="form-group col-sm-5">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" class="form-control" name="phone" required pattern="^[0-9-+]{8,}$" title="Please enter a valid phone number.">
+              <small class="form-text text-muted">Please enter the phone number we should use to contact you.</small>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="form-group col-sm-10">
+              <label for="comments">Problem occur</label>
+              <textarea id="comments" class="form-control" rows="3" name="comments" required></textarea>
+            </div>
+          </div>
+          <div class="row"> 
+            <div class="col-sm-9"></div>
+            <div class="col-sm-3">
+              <div class="row">
+                <div class="col-sm-8">
+                  <button type="submit" class="btn hvr-outline-out" id="enqbtn">Submit</button>
+                </div>
+              </div>
+              <input type="hidden" name="spam_filter">
+            </div>
+          </div>    
+        </form>
+        <div id="thankyou_message">
+          <i>Thank you for your interest in Rajlaxmi Steel Trader's. Your message has been forwarded and our
+            representative will contact you soon.</i>
+        </div>
+        <div class="topbored marbot"></div>
+      </div>
+    </div>
+  </div>
+  <div class="header">
+    <img src="logo-plain.png" id="logo-plain">
+    <img src="logo.jpg" id="logo" class="img-responsive">
+    <div class="mast">
+      <b><span id="phn"><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>
+          <span>022-23872711-14</span> </span>
+        <span id="eml"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+          <span>rajlaxmisteelltd@gmail.com</span></span></b>
+    </div>
+    <nav class="lineup" id="navnav">
+      <ul class="ulist">
+        <a href="index.html">
+          <li id="no1">Home</li>
+        </a>
+        <a href="about.html">
+          <li>About Us</li>
+        </a>
+        <a href="products.html">
+          <li>Products</li>
+        </a>
+        <a href="contact.html">
+          <li>Contact Us</li>
+        </a>
+        <a><i class="glyphicon glyphicon-menu-hamburger white"></i></a>
+      </ul>
+    </nav>
+    <button id="enquiry" class="enqs btn hvr-outline-outs " data-toggle="modal" data-target="#mymodal"> Make an
+      Enquiry</button>
+  </div>
+
+  <ul class="collapse-menu">
+    <a href="index.html">
+      <li>Home</li>
+    </a>
+    <a href="about.html">
+      <li>About Us</li>
+    </a>
+    <a href="products.html">
+      <li>Products</li>
+    </a>
+    <a href="contact.html">
+      <li>Contact Us</li>
+    </a>
+  </ul>
+  <div class="about" id="prdct">
+    <h3><span>&nbsp;Products&nbsp;</span></h3>
+  </div>
+
+  <div class="container mains linker">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1 id="title2">Colour Coated Sheets</h1>
+      </div>
+
+    </div>
+    <div class="row steelrow">
+      <div class="col-xs-1 steeltyp mission-text np" id="db6">
+        <i></i>
+        <p>1<br>TATA</p><a href="DIN1.2714.pdf" target="_blank"></a>
+      </div>
+      <div class="col-xs-1 steeltyp mission-text np" id="h11">
+        <i></i>
+        <p>2<br>JSW STEEL</p><a href="H11&H13.pdf" target="_blank"></a>
+      </div>
+      <div class="col-xs-1 steeltyp mission-text np" id="h13">
+        <i></i>
+        <p>3<br>APOLLO</p><a href="H11&H13.pdf" target="_blank"></a>
+      </div>
+      <div class="col-xs-1 steeltyp mission-text np" id="h13">
+        <i></i>
+        <p>4<br>ULTRASHIN</p><a href="H11&H13.pdf" target="_blank"></a>
+      </div>
+      <div class="col-xs-1 steeltyp mission-text np" id="h13">
+        <i></i>
+        <p>5<br>AMN/S INDIA</p><a href="H11&H13.pdf" target="_blank"></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <h1 id="title2">Pipes and Tubes</h1>
+      </div>
+    </div>
+    <div class="col-xs-1 steeltyp mission-text yp">
+      <i></i>
+      <p>1<br>Apollo</p><a href="D2&D3.pdf" target="_blank"></a>
+    </div>
+    <div class="col-xs-1 steeltyp mission-text yp">
+      <i></i>
+      <p>2<br>Orange</p><a href="D2&D3.pdf" target="_blank"></a>
+    </div>
+    <div class="col-xs-1 steeltyp mission-text yp" id="d3">
+      <i></i>
+      <p>3<br>Jsw Kalinga</p><a href="D2&D3.pdf" target="_blank"></a>
+    </div>
+    <div class="col-xs-1 steeltyp mission-text yp" id="d3">
+      <i></i>
+      <p>4<br>Fortune</p><a href="D2&D3.pdf" target="_blank"></a>
+    </div>
+    <div class="col-xs-1 steeltyp mission-text yp" id="d3">
+      <i></i>
+      <p>5<br>Isckon</p><a href="D2&D3.pdf" target="_blank"></a>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <h1 id="title2">Angles and Channels</h1>
+      </div>
+
+    </div>
+    <div class="row steelrow">
+      <div class="col-xs-1 xsallrow steeltyp mission-text np" id="ss304">
+        <i></i>
+        <p>1<br>Kamdhenu</p>
+      </div>
+      <div class="col-xs-1 xsallrow steeltyp mission-text np" id="ss304l">
+        <i></i>
+        <p>2<br>Raja Ram</p>
+      </div>
+      <div class="col-xs-1 xsallrow steeltyp mission-text np" id="en353">
+        <i></i>
+        <p>3<br>Meenakshi</p>
+      </div>
+      <div class="col-xs-1 xsallrow steeltyp mission-text np" id="en362">
+        <i></i>
+        <p>4<br>Bars and Flat</p>
+      </div>
+      
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 id="title2">A.C SHEETS</h1>
+        </div>
+
+      </div>
+      <div class="row steelrow">
+        <div class="col-xs-1 xsallrow steeltyp mission-text np" id="ss304">
+          <i></i>
+          <p>1<br><i></i>SWASTIK</p>
+        </div>
+        <div class="col-xs-1 xsallrow steeltyp mission-text np" id="ss304l">
+          <i></i>
+          <p>2<br><i></i>EVERST</p>
+        </div>
+        <div class="col-xs-1 xsallrow steeltyp mission-text np" id="en353">
+          <i></i>
+          <p>3<br><i></i>HR AND CR SHEETS</p>
+        </div>
+       
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 id="title2">G.C Sheets</h1>
+        </div>
+
+      </div>
+      <div class="row steelrow">
+        <div class="col-xs-1 xsallrow steeltyp mission-text np" id="en36">
+          <i></i>
+          <p>1<br><i></i>
+          <p>AM/NS INDIA</p>
+        </div>
+        <div class="col-xs-1 xsallrows steeltyp mission-text yp" id="en24">
+          <i></i>
+          <p>2<br><i></i>
+          <p>TATA SHAKTEE<br><br></p>
+        </div>
+        <div class="col-xs-1 xsallrows steeltyp mission-text np" id="sml">
+          <i></i>
+          <p>3<br><i></i>
+          <p>JSW<br><br></p>
+     
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <h1 id="title2">Screw</h1>
+          </div>
+        </div>
+        <div class="row steelrow">
+          <div class="col-xs-1 xsallrow steeltyp mission-text np" id="f5">
+            <p>1<br><i></i>
+            <p>HP</p>
+          </div>
+          <div class="col-xs-1 xsallrow steeltyp mission-text np" id="f9">
+            <p>2<br><i></i>
+            <p>Sa</p>
+          </div>
+          <div class="col-xs-1 xsallrow steeltyp mission-text np" id="f22">
+            <p>3<br><i></i>
+            <p>Xdx</p>
+          </div>
+          
+        </div>
+
+        <div class="row">
+          <div class="col-xs-12">
+            <h1 id="title2">Hardware and Fabrication materials</h1>
+          </div>
+        
+          <div class="col-xs-12">
+            <h1 id="title2">Lamination doors and upvc doors</h1>
+          </div>
+
+          
+          <div class="col-xs-12">
+            <h1 id="title2">G.p ,c c, polycarbonate rolls</h1>
+          </div>
+
+        
+
+          <div class="col-xs-12">
+            <h1 id="title2">Polycarbonate sheets</h1>
+          </div>
+
+         
+          <div class="col-xs-12">
+            <h1 id="title2">Chaukat and khidki</h1>
+          </div>
+
+          
+          <div class="col-xs-12">
+            <h1 id="title2">Cement pole</h1>
+          </div>
+          
+            <div class="col-xs-12">
+              <h1 id="title2">Upvc sheets</h1>
+            </div>
+          </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="menu.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="formscpt.js"></script>
+        <script src="scroller.js"></script>
+        <script src="productscr.js"></script>
+        <footer class="bg-dark text-light text-center py-3">
+          <a href="https://www.facebook.com/YourPageName" target="_blank">Facebook</a>
+          <a href="https://instagram.com/YourTwitterHandle" target="_blank">Instagram</a>
+          <p>&copy; 2024 Rajlaxmi Steel Trader's. All rights reserved.</p>
+        </footer>
+</body>
+
+</html

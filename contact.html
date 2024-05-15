@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Contact Us | Rajlaxmi steel Trader's Pvt. Ltd.</title>
+</head>
+<body class="about-bod capt">
+    <div class="header">
+        <img src="logo-plain.png" id="logo-plain">
+        <img src="logo.jpg" id="logo" class="img-responsive">
+            <div class="mast">
+                <b><span id="phn"><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>
+                <span >022-23872711-14</span> </span>
+                <span id="eml"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> 
+                <span >rajlaxmisteelltd@gmail.com</span></span></b>
+            </div>
+            <nav class="lineup" id="navnav">
+                <ul class="ulist">
+                    <a href="index.html"><li id="no1">Home</li></a>
+                    <a href="about.html"><li>About Us</li></a>
+                    <a href="products.html"><li>Products</li></a>
+                     <a href="contact.html"><li>Contact Us</li></a>
+                     <a><i class="glyphicon glyphicon-menu-hamburger white"></i></a>
+                   </ul>
+               </nav>
+        </div>
+        
+            <ul class="collapse-menu">
+                <a href="index.html"><li>Home</li></a>
+                <a href="about.html"><li>About Us</li></a>
+                <a href="products.html"><li>Products</li></a>
+                 <a href="contact.html"><li>Contact Us</li></a>
+               </ul>
+
+        <div class="about" id="cntcs">
+     <h3><span>&nbsp;Contact Us&nbsp;</span></h3>
+     </div>
+  
+<div class="container contact-text mains linker" id="contact-page">
+<div class="font row">
+<div class="col-sm-12">
+<h1 id="titles">Contact Details</h1>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12">
+<p><b>Address</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Rajlaxmi Steel Trader's Pvt. Ltd.
+Rahata,
+Maharashtra State, India</p>
+<p><b>Mobile</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9699172778</p>
+<p><b>Email</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rajlaxmisteelltd@gmail.com</p>
+</div>
+</div>
+<div class="row">
+    <div class="enquiry-intro col-sm-12 " id="abcde">
+    <b>We would be delighted to receive any queries, suggestions, or feedback from you.</b> Simply fill in this form below and our representative will contact you at the earliest:
+    </div>
+
+</div>
+<div class="topbore"></div>
+<div id="enquiry-form">
+    <form method="POST" action="http://localhost:3000/submit-form" id="gform">
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="form-group col-sm-5">
+                <label for="fname">First Name</label>
+                <input type="text" class="form-control" id="fname" name="first_name" required pattern="^[a-zA-Z][a-z]+$" title="Please enter a name.">
+            </div>
+            <div class="form-group col-sm-5">
+                <label for="lname">Last Name</label>
+                <input type="text" class="form-control" id="lname" name="last_name" required pattern="^[a-zA-Z][a-z]+$" title="Please enter a name.">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="form-group col-sm-5">
+                <label for="email">Email</label>
+                <input type="email" id="email" class="form-control" name="email" required>
+                <small class="form-text text-muted">Please enter the email address we should use to contact you.</small>
+            </div>
+            <div class="form-group col-sm-5">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" class="form-control" name="phone" required pattern="^[0-9-+]{8,}$" title="Please enter a valid phone number.">
+                <small class="form-text text-muted">Please enter the phone number we should use to contact you.</small>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="form-group col-sm-10">
+                <label for="comments">Problem occur</label>
+                <textarea id="comments" class="form-control" rows="3" name="comments" required></textarea>
+            </div>
+        </div>
+        <div class="row"> 
+            <div class="col-sm-9"></div>
+            <div class="col-sm-3">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <button type="submit" class="btn hvr-outline-out" id="enqbtn">Submit</button>
+                    </div>
+                </div>
+                <input type="hidden" name="spam_filter">
+            </div>
+        </div>    
+    </form>
+     <div id="thankyou_message">
+        <i>Thank you for your interest in Rajlaxmi Steel. Your message has been forwarded and our representative will contact you soon.</i>
+    </div>
+    <div class="topbored"></div>
+   
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="formscpt.js"></script>
+<script src="menu.js"></script>
+<script src="scroller.js"></script>
+<footer class="bg-dark text-light text-center py-3">
+    <a href="https://www.facebook.com/YourPageName" target="_blank">Facebook</a>
+	<a href="https://instagram.com/YourTwitterHandle" target="_blank">Instagram</a>
+    <p>&copy; 2024 Rajlaxmi Steel Trader's. All rights reserved.</p>
+</footer>
+</body>
+</html>

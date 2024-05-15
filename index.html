@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<title>Welcome | Rajlaxmi Steel Trader's Pvt. Ltd.</title>
+</head>
+<body class="about-bod capt">
+<div class="modal fade" id="mymodal">
+	<div class="formodal-cont modal-content">
+		<button type="button" class="close" data-dismiss="modal">&times;</button>
+		<div class="row">
+    		<div class="enquiry-intros col-sm-12 ">
+    			<b>We would be delighted to receive any queries, suggestions, or feedback from you.</b> Simply fill in this form below and our representative will contact you at the earliest:
+    		</div>
+		</div>
+		<div class="topbore"></div>	
+		<div id="enquiry-form">
+    		<form method="POST" action="http://localhost:3000/submit-form" id="gform">
+				<div class="row">
+					<div class="col-sm-1"></div>
+					<div class="form-group col-sm-5">
+						<label for="fname">First Name</label>
+						<input type="text" class="form-control" id="fname" name="first_name" required pattern="^[a-zA-Z][a-z]+$" title="Please enter a name.">
+					</div>
+					<div class="form-group col-sm-5">
+						<label for="lname">Last Name</label>
+						<input type="text" class="form-control" id="lname" name="last_name" required pattern="^[a-zA-Z][a-z]+$" title="Please enter a name.">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-1"></div>
+					<div class="form-group col-sm-5">
+						<label for="email">Email</label>
+						<input type="email" id="email" class="form-control" name="email" required>
+						<small class="form-text text-muted">Please enter the email address we should use to contact you.</small>
+					</div>
+					<div class="form-group col-sm-5">
+						<label for="phone">Phone</label>
+						<input type="tel" id="phone" class="form-control" name="phone" required pattern="^[0-9-+]{8,}$" title="Please enter a valid phone number.">
+						<small class="form-text text-muted">Please enter the phone number we should use to contact you.</small>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-1"></div>
+					<div class="form-group col-sm-10">
+						<label for="comments">Problem occur</label>
+						<textarea id="comments" class="form-control" rows="3" name="comments" required></textarea>
+					</div>
+				</div>
+				<div class="row"> 
+					<div class="col-sm-9"></div>
+					<div class="col-sm-3">
+						<div class="row">
+							<div class="col-sm-8">
+								<button type="submit" class="btn hvr-outline-out" id="enqbtn">Submit</button>
+							</div>
+						</div>
+						<input type="hidden" name="spam_filter">
+					</div>
+				</div>    
+			</form>
+			
+     		<div id="thankyou_message">
+	        	<i>Thank you for your interest in Rajlaxmi Steel Trader's. Your message has been forwarded and our representative will contact you soon.</i>
+    		</div>
+    		<div class="topbored marbot"></div>
+		</div>
+	</div>
+</div>
+<div class="header">
+<img src="logo-plain.png" id="logo-plain">
+<img src="logo.jpg" id="logo" class="img-responsive">
+	<div class="mast">
+        <b><span id="phn"><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>
+        <span >022-23872711-14</span> </span>
+		<span id="eml"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> 
+		<span >rajlaxmisteelltd@gmail.com</span></span></b>
+	</div>
+	<nav class="lineup" id="navnav">
+		<ul class="ulist">
+	    	<a href="index.html"><li id="no1">Home</li></a>
+    		<a href="about.html"><li>About Us</li></a>
+    		<a href="products.html"><li>Products</li></a>
+     		<a href="contact.html"><li>Contact Us</li></a>
+     		<a><i class="glyphicon glyphicon-menu-hamburger white"></i></a>
+   		</ul>
+   	</nav>
+<button id="enquiry" class="enqs btn hvr-outline-outs " data-toggle="modal" data-target="#mymodal"> Make an Enquiry</button>
+</div>
+
+	<ul class="collapse-menu">
+    	<a href="index.html"><li>Home</li></a>
+    	<a href="about.html"><li>About Us</li></a>
+    	<a href="products.html"><li>Products</li></a>
+     	<a href="contact.html"><li>Contact Us</li></a>
+   	</ul>
+
+<div class="conta">
+<img src = "slide2.jpg" class="slide">
+<h2 class="carcap" id="slc1"></div>
+<div class="conta">
+<img src = "slide1.jpg" class="slide">
+<h2 class="carcap" id="slc2"></div>
+<div class="conta">
+<img src = "slide3.jpg" class="slide">
+<h2 class="lower carcap" id="slc3"></div>
+<div class="conta">
+<img src = "slide4.jpg" class="slide">
+<h2 class="lower carcap" id="slc4"></div>
+
+
+
+<div class="container mains">
+<div class="row greeting" id="welcome">
+<div class="col-sm-12">
+<marquee direction="left"> Welcome to Rajlaxmi Steel trader's</marquee></p>
+</div>
+</div>
+    <div class="row">
+        <div class="col-sm-12 history" id="intro">
+			Unlocking the potential of your projects starts with the right steel, and at our trading company, we offer nothing but the best. Our commitment to excellence ensures that every piece of steel we supply is of the highest quality, ready to withstand the demands of your construction endeavors. From towering skyscrapers to intricate infrastructure, our steel is the backbone of success. With a diverse range of products and unwavering dedication to customer satisfaction, we stand as your trusted partner in materializing your visions. Choose us for reliability, durability, and the assurance that your projects will rise with strength and resilience.
+        </div>
+        <div class="col-sm-12 linker history" id="product-link">
+        <a href="products.html">View our entire range of products&nbsp; <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
+        </div>
+    </div>
+<div class="topbor"></div>
+<div class="row" id="servepar">
+
+<div class="col-sm-12 historys" >
+	At Rajlaxmi steel Trader's, we bring the strength and reliability of steel to our local community and beyond. Every piece of steel in our inventory is carefully selected to meet the unique needs of our customers, whether it's for a small home renovation project or a larger agricultural endeavor. With us, you can expect personalized service, top-notch quality, and the satisfaction of supporting a local business. Visit us today and discover the difference that hometown hospitality makes in your steel buying experience.
+</div>
+</div>
+<div class="row" id="triple">
+    <div class="col-sm-4 fav-blocks">
+    <img src="service.png" class="choose-img">
+    <h4><b>Reliability</b></h4>
+    <p class="choose-text"> We understand the importance of consistency and dependability in the steel trading industry, which is why we strive to be a trusted partner you can always rely on.</p>
+    </div>
+    <div class="col-sm-4 fav-blocks" id="middle">
+    <img src="quality.png" class="choose-img">
+     <h4><b>Quality</b></h4>
+    <p class="choose-text">Quality is at the heart of everything we do at <b>Rajlaxmi steel Trader's</b> We meticulously select each piece of steel in our inventory to ensure it meets the highest standards of strength, durability, and performance.</p>
+    </div>
+    <div class="col-sm-4 fav-blocks">
+    <img src="satis.png" class="choose-img">
+     <h4><b>Customer Satisfaction</b></h4>
+    <p class="choose-text">At <b>Rajlaxmi steel Trader's</b>, we believe in building lasting relationships with our clients based on trust, transparency, and exceptional service.</p>
+    </div>
+</div>
+
+<div class="topbor"></div>
+</div>
+<div class="topbor"></div>
+<div class="row" id="double">
+<div class="col-sm-1"></div>
+<div class="col-sm-5 fav-block linker">
+    <img src = "abut.jpg " class="test" >
+    <h4>About Us</h4>
+    <p class="choose-text infra">At Rajlaxmi steel Trader's, we've been a trusted name in local steel trading since past years. Our commitment to quality and customer satisfaction has been the cornerstone of our business for many years.</p>
+    <a href="about.html" class="choose-text">Learn more</a>
+</div>
+<div class="col-sm-5 fav-block linker">
+    <img src = "cont.jpg" class="testa" >
+    <h4>Contact Us</h4>
+    <p class="choose-text infra">We're here to serve you! Whether you have questions about our products, need assistance with an order, or want to explore partnership opportunities, feel free to reach out to us.</p>
+	<a href="about.html" class="choose-text">Learn more</a>
+</div>
+<div class="col-sm-1"></div>
+</div>
+</div>
+
+  
+  
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+<script src="menu.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="formscpt.js"></script>
+<script src="scroller.js"></script>
+<footer class="bg-dark text-light text-center py-3">
+	<a href="https://www.facebook.com/YourPageName" target="_blank">Facebook</a>
+	<a href="https://instagram.com/YourTwitterHandle" target="_blank">Instagram</a>
+	<p>&copy; 2024 Rajlaxmi Steel Trader's. All rights reserved.</p>
+</footer>
+</body>
+</html>
